@@ -8,6 +8,7 @@
 Reed Solomon
 ============
 
+
 A cython implementation of an `universal errors-and-erasures Reed-Solomon Codec <http://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction>`_
 , based on the wonderful tutorial at
 `wikiversity <http://en.wikiversity.org/wiki/Reed%E2%80%93Solomon_codes_for_coders>`_,
@@ -87,7 +88,7 @@ from cython.parallel import parallel, prange
 
 import itertools
 from cpython cimport array
-
+import array
 
 ################### INIT and stuff ###################
 
